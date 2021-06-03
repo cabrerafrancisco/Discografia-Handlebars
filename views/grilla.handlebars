@@ -1,0 +1,10 @@
+<div class="contenedor">
+    {{#each discos}}
+    <div class="card">
+        <img src="{{this.tapa}}" alt="tapa">
+        <h3>Titulo: {{this.titulo}}</h3>
+        <h3>Artista: {{this.artista}}</h3>
+        <a href="/disco?id={{this.id}}" class="btn">ver mas</a>
+    </div>
+    {{/each}}
+</div>
