@@ -1,0 +1,24 @@
+{
+  "name": "discografia-handlebars",
+  "version": "1.0.0",
+  "description": "crear una consulta a discos utilizando plantillas de handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabrerafrancisco/Discografia-Handlebars.git"
+  },
+  "author": "francisco cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabrerafrancisco/Discografia-Handlebars/issues"
+  },
+  "homepage": "https://github.com/cabrerafrancisco/Discografia-Handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}
